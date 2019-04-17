@@ -1,2 +1,5 @@
 flask
-flask_sqlalchemy
+flask-sqlalchemy
+mysqlclient
+flask_script
+flask-sqlacodegen
