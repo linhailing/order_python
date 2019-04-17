@@ -1,5 +1,12 @@
 # encoding: utf-8
-from application import  app
+from application import app
+
+"""
+后台登陆过滤
+"""
+from web.controllers.filter.Auth import *
+
+
 from web.controllers.index import route_index
 from web.controllers.user.User import route_user
 from web.controllers.static import route_static
